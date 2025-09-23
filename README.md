@@ -43,7 +43,7 @@ See [INSTALL.md](INSTALL.md) for details.
   ```
 
 ### 3. Download Pre-trained Weights
-- You can download the checkpoint pre-trained on DROID by this link: [checkpoint on DROID](https://drive.google.com/file/d/1fx0zYPF-q9BM5bAWcPdG64PTh3Kssir9/view?usp=sharing). It can be used for finetuning or zero-shot evaluation. 
+- You can download the checkpoint pre-trained on DROID by this link: [checkpoint on DROID](https://drive.google.com/file/d/1qSSgSiEq4JkHB4IzbuSdNxvY1QNSFHkT/view?usp=sharing). It can be used for finetuning or zero-shot evaluation. 
 
 ### 4. Model Training
 - Our training scripts using deepspeed to accelerate training, so you need to configure it properly.
