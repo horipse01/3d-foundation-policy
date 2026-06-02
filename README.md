@@ -1,17 +1,24 @@
 # FP3: A 3D Foundation Policy for Robotic Manipulation
 
- **3D Foundation Policy (FP3)** is a 1.3B 3D point cloud-based language-visuomotor policy pre-trained on 60k episodes from the DROID dataset. FP3 supports data-efficient fine-tuning for downstream tasks, while demonstrating superior generalizability to unseen environments and novel objects.
+Rujia Yang<sup>1*</sup>, Geng Chen<sup>2,3*</sup>, Chuan Wen<sup>1,2,4‡</sup>, Yang Gao<sup>1,2,4‡</sup>
+
+<sup>1</sup>IIIS, Tsinghua University &ensp; <sup>2</sup>Shanghai AI Laboratory &ensp; <sup>3</sup>UC San Diego &ensp; <sup>4</sup>Shanghai Qi Zhi Institute
+
+<sup>*</sup>Equal contribution &ensp; <sup>‡</sup>Equal advising
 
 [**[Homepage]**](https://3d-foundation-policy.github.io/) &ensp; [**[Paper]**](https://arxiv.org/pdf/2503.08950)
 
+> 🏆 **ICRA 2026 Best Paper Award Finalist on Robot Learning**
+
+<video src="https://3d-foundation-policy.github.io/static/images/fp3_video.mp4" controls width="100%"></video>
+
 ![](assets/concept.jpg)
+
+ **3D Foundation Policy (FP3)** is a 1.3B 3D point cloud-based language-visuomotor policy pre-trained on 60k episodes from the DROID dataset. FP3 supports data-efficient fine-tuning for downstream tasks, while demonstrating superior generalizability to unseen environments and novel objects.
 
 
 ## Updates
 
-Note: An improved version of FP3 is under development, incorporating enhancements such as point cloud fusion and data augmentation. We will release the updated version shortly.
-
-We will continuously improve this repository. Major updates will be tracked here:
 - **[2025-06-05]** Weights of FP3 pre-trained on DROID release.
 - **[2025-06-05]** Added support for DP2 and DP3 configuration generation for training Diffusion Policy and 3D Diffusion Policy.
 
